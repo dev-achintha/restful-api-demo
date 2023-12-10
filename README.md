@@ -2,6 +2,35 @@
 
 This repository contains the code for the Horizon Students API, a simple RESTful API designed to manage student information. The API provides endpoints to perform CRUD (Create, Read, Update, Delete) operations on a MySQL database table named `horizonstudents`. Below, you'll find information on how to use and configure the API.
 
+## Installation and Configuration
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/restful-api-demo.git
+   cd restful-api-demo
+   ```
+
+2. **Set Up Environment Variables:**
+   Create a `.env` file in the `config` directory and set the following environment variables:
+   ```env
+   DB_HOST=your_database_host
+   DB_NAME=your_database_name
+   DB_USERNAME=your_database_username
+   DB_PASSWORD=your_database_password
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   composer install
+   ```
+
+4. **Run the API:**
+   Start a local development server:
+   ```bash
+   php -S localhost:8000
+   ```
+   The API will be accessible at `http://localhost:8000`.
+
 ## Features
 
 - **GET /restful/horizonstudents:** Retrieve a list of all students or filter based on specific parameters.
@@ -32,7 +61,7 @@ Retrieve a list of students. You can optionally provide parameters to filter the
 #### Example
 
 ```http
-GET https://soc-achinthas-projects.vercel.app/restful/horizonstudents?city=Badulla&province=Uva
+GET https://soc-achinthas-projects.vercel.app/restful/horizonstudents?city=colombo&province=western
 ```
 
 ### POST /restful/horizonstudents
