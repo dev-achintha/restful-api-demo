@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Enabled",
+                "ssl": {
+                    "ca": "C:\\Users\\skasa\\Documents\\GitHub\\test-api\\DigiCertGlobalRootCA.crt.pem"
+                }
+            },
+            "previewLimit": 50,
+            "server": "mysqlsvr-achintha.mysql.database.azure.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "restful api test",
+            "database": "restful",
+            "username": "achintha4759",
+            "askForPassword": true
+        }
+    ]
+}
