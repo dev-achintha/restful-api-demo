@@ -1,38 +1,19 @@
-```html
 # Horizon Students API
 
 This repository contains the code for the Horizon Students API, a simple RESTful API designed to manage student information. The API provides endpoints to perform CRUD (Create, Read, Update, Delete) operations on a MySQL database table named `horizonstudents`. Below, you'll find information on how to use and configure the API.
 
-## Installation and Configuration
+## Features
 
-1. **Clone the repository:**
+- **GET /restful/horizonstudents:** Retrieve a list of all students or filter based on specific parameters.
+- **POST /restful/horizonstudents:** Add a new student to the database.
+- **PUT /restful/horizonstudents:** Update an existing student's information.
+- **DELETE /restful/horizonstudents:** Delete a student from the database.
 
-   ```bash
-   git clone https://github.com/your-username/horizon-students-api.git
-   ```
+## Online Testing
 
-2. **Configure the database connection:**
+I have deployed this API online, and you can test it using [this link](https://soc-achinthas-projects.vercel.app/restful/horizonstudents). You can use Postman or any API testing tool to interact with the API.
 
-   Update the `.env` file with your database connection details:
-
-   ```dotenv
-   DB_HOST=your-database-host
-   DB_NAME=your-database-name
-   DB_USERNAME=your-database-username
-   DB_PASSWORD=your-database-password
-   ```
-
-3. **Import the MySQL table:**
-
-   Execute the SQL script `database.sql` in your MySQL database to create the `horizonstudents` table.
-
-4. **Run the API:**
-
-   ```bash
-   php -S localhost:8000
-   ```
-
-## API Endpoints
+## Use Cases with Postman
 
 ### GET /restful/horizonstudents
 
@@ -51,7 +32,7 @@ Retrieve a list of students. You can optionally provide parameters to filter the
 #### Example
 
 ```http
-GET http://localhost:8000/restful/horizonstudents?city=Badulla&province=Uva
+GET https://soc-achinthas-projects.vercel.app/restful/horizonstudents?city=Badulla&province=Uva
 ```
 
 ### POST /restful/horizonstudents
@@ -64,7 +45,7 @@ Add a new student to the database.
 #### Example
 
 ```http
-POST http://localhost:8000/restful/horizonstudents
+POST https://soc-achinthas-projects.vercel.app/restful/horizonstudents
 Content-Type: application/json
 
 {
@@ -89,7 +70,7 @@ Update an existing student's information.
 #### Example
 
 ```http
-PUT http://localhost:8000/restful/horizonstudents
+PUT https://soc-achinthas-projects.vercel.app/restful/horizonstudents
 Content-Type: application/json
 
 {
@@ -108,7 +89,7 @@ Delete a student from the database.
 #### Example
 
 ```http
-DELETE http://localhost:8000/restful/horizonstudents
+DELETE https://soc-achinthas-projects.vercel.app/restful/horizonstudents
 Content-Type: application/json
 
 {
@@ -119,4 +100,3 @@ Content-Type: application/json
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
