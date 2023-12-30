@@ -6,7 +6,7 @@ This repository contains the code for the Horizon Students API, a simple RESTful
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/restful-api-demo.git
+   git clone https://github.com/iamachintha/restful-api-demo.git
    cd restful-api-demo
    ```
 
