@@ -2,6 +2,10 @@
 
 This repository contains the code for the Horizon Students API, a simple RESTful API designed to manage student information. The API provides endpoints to perform CRUD (Create, Read, Update, Delete) operations on a MySQL database table named `horizonstudents`. Below, you'll find information on how to use and configure the API.
 
+## Online Testing
+
+I have deployed this API online, and you can test it using 👉 [this link](https://soc-achinthas-projects.vercel.app/restful/horizonstudents)👈. You can use Postman or any API testing tool to interact with the API.
+
 ## Installation and Configuration
 
 1. **Clone the Repository:**
@@ -37,10 +41,6 @@ This repository contains the code for the Horizon Students API, a simple RESTful
 - **POST /restful/horizonstudents:** Add a new student to the database.
 - **PUT /restful/horizonstudents:** Update an existing student's information.
 - **DELETE /restful/horizonstudents:** Delete a student from the database.
-
-## Online Testing
-
-I have deployed this API online, and you can test it using [this link](https://soc-achinthas-projects.vercel.app/restful/horizonstudents). You can use Postman or any API testing tool to interact with the API.
 
 ## Use Cases with Postman
 
