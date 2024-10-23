@@ -4,7 +4,7 @@ This repository contains the code for the Horizon Students API, a simple RESTful
 
 ## Online Testing
 
-I have deployed this API online, and you can test it using 👉 [this link](https://soc-achinthas-projects.vercel.app/restful/horizonstudents)👈. You can use Postman or any API testing tool to interact with the API.
+I have deployed this API online, and you can test it using 👉 [this link](https://soc-achinthas-projects.vercel.app/restful/horizonstudents)👈. You can use Postman or any API testing tool to interact with the API. (This link should work as long as the [Aiven](https://aiven.io/) service continues provide free MySql servers.)
 
 ## Installation and Configuration
 
