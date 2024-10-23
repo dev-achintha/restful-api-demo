@@ -6,7 +6,7 @@ This repository contains the code for the Horizon Students API, a simple RESTful
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/iamachintha/restful-api-demo.git
+   git clone https://github.com/dev-achintha/restful-api-demo.git
    cd restful-api-demo
    ```
 
@@ -61,7 +61,7 @@ Retrieve a list of students. You can optionally provide parameters to filter the
 #### Example
 
 ```http
-GET https://soc-achinthas-projects.vercel.app/restful/horizonstudents?city=colombo&province=western
+GET https://soc-achinthas-projects.vercel.app/restful/horizonstudents?city=Colombo&province=Western
 ```
 
 ### POST /restful/horizonstudents
@@ -78,13 +78,13 @@ POST https://soc-achinthas-projects.vercel.app/restful/horizonstudents
 Content-Type: application/json
 
 {
-  "first_name": "John",
-  "last_name": "Doe",
+  "first_name": "Kavindu",
+  "last_name": "Perera",
   "city": "Colombo",
   "district": "Colombo",
   "province": "Western",
-  "email_address": "john.doe@example.com",
-  "mobile_number": "1234567890"
+  "email_address": "kavindu.perera@gmail.com",
+  "mobile_number": "0771234567"
 }
 ```
 
@@ -103,8 +103,8 @@ PUT https://soc-achinthas-projects.vercel.app/restful/horizonstudents
 Content-Type: application/json
 
 {
-  "index_no": 1,
-  "city": "Kandy"
+  "index_no": 3,
+  "city": "Matara"
 }
 ```
 
@@ -122,10 +122,6 @@ DELETE https://soc-achinthas-projects.vercel.app/restful/horizonstudents
 Content-Type: application/json
 
 {
-  "index_no": 2
+  "index_no": 5
 }
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
